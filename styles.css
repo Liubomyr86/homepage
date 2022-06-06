@@ -211,15 +211,20 @@ body {
   font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__company-projects {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__company-projects-list {
   color: var(--secondary-text-color);
   padding-left: 20px;
+}
+
+.experiences__company-project-name {
+  text-decoration: none;
+  color: var(--secondary-text-color);
 }
 
 .additional-info {
